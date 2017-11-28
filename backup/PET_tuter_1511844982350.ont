@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OE_FILE filename="PET.ont" project="PET" author="tuter" ontname="PET" update="1511844982350" comment="">
+<FILENAME_ONT>PET.ont </FILENAME_ONT> 
+<W_CONCEPTS>
+<CANVAS_SIZE w="2000" h="2000"/>
+</W_CONCEPTS>
+<R_CONCEPTS>
+<CANVAS_SIZE w="2000" h="2000"/>
+</R_CONCEPTS>
+<OTHER_ONTS>
+<W_DEPENDENCY>
+</W_DEPENDENCY>
+<R_DEPENDENCY>
+</R_DEPENDENCY>
+</OTHER_ONTS>
+</OE_FILE>

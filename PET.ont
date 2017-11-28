@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OE_FILE filename="PET.ont" ont_id="1511846419571ont" author="tuter" ontname="PET" update="1511846419571" project="PET" comment="">
+<FILENAME_ONT>PET.ont</FILENAME_ONT>
+<W_CONCEPTS>
+<CANVAS_SIZE w="2000" h="2000" x="0" y="0" />
+<CONCEPT id="1511846419571_n0" >
+<LABEL>Any</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="421" y="14"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1511846419571_n1" >
+<LABEL>Animal</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="409" y="100"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1511846419571_n2" >
+<LABEL>Pet</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="426" y="219"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1511846419571_s3" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="related item"  class_constraint="PetItem"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="PetItem" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1511846419571_n4" >
+<LABEL>Cat</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="238" y="94"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1511846419571_n5" >
+<LABEL>Dog</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="221" y="134"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1511846419571_n6" >
+<LABEL>Hamster</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="170" y="192"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1511846419571_n7" >
+<LABEL>Rabbit</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="195" y="250"/>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1511846419571_n8" >
+<LABEL>Accesssory</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="927" y="19"/>
+<SLOTS>
+<SLOT id="1511846419571_s9" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="type"  class_constraint="string"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1511846419571_s10" 
+ type="NW"  label="slot4"  kind="a/o"  num="1"  role="size"  class_constraint="string"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1511846419571_n11" >
+<LABEL>Food</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="647" y="340"/>
+<SLOTS>
+<SLOT id="1511846419571_s12" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="type"  class_constraint="string"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1511846419571_s13" 
+ type="NW"  label="slot4"  kind="a/o"  num="1"  role="recommend age of pet"  class_constraint="integer"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="integer" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<CONCEPT id="1511846419571_n14" >
+<LABEL>PetItem</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="633" y="14"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1511846419571_s15" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="price"  class_constraint="integer"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="integer" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1511846419571_s16" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="brand"  class_constraint="string"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+</CONCEPT>
+<ISA id="1511846419571_isa17" parent="Any" child="Animal" />
+<ISA id="1511846419571_isa18" parent="Animal" child="Pet" />
+<ISA id="1511846419571_isa19" parent="Pet" child="Cat" />
+<ISA id="1511846419571_isa20" parent="Pet" child="Dog" />
+<ISA id="1511846419571_isa21" parent="Pet" child="Hamster" />
+<ISA id="1511846419571_isa22" parent="Pet" child="Rabbit" />
+<ISA id="1511846419571_isa23" parent="Any" child="PetItem" />
+<ISA id="1511846419571_isa24" parent="PetItem" child="Accesssory" />
+<ISA id="1511846419571_isa25" parent="PetItem" child="Food" />
+</W_CONCEPTS>
+<R_CONCEPTS>
+<CANVAS_SIZE w="2000" h="1930" />
+</R_CONCEPTS>
+<OTHER_ONTS>
+<W_DEPENDENCY>
+</W_DEPENDENCY>
+<R_DEPENDENCY>
+</R_DEPENDENCY>
+</OTHER_ONTS>
+<PRINTER>
+<PAGE_SETTINGS header="true" footer="true" cropmarks="true" scale="100" />
+<PAGE_FORMAT w="612.0" h="792.0" iw="468.0" ih="648.0" ix="72.0" iy="72.0" />
+<PRINTER_SETTINGS orientation="1" printername="Microsoft Print to PDF" />
+</PRINTER>
+</OE_FILE>
